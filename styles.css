@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     font-family: 'Open Sans';font-size: 22px;
+    color:rgba(54, 44, 32, 0.664);
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 
 .logo {
     position:relative;
-    top: 30%;
+    top: 32%;
 }
 
 .logo h1 {
@@ -33,12 +34,119 @@ body {
     padding: 0 40px;
 }
 
+.logo span {
+    font-size: 100px;
+    color: yellow;
+}
+
 .right {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .section {
     height: calc(100vh/3);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.main {
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0 0 15px 2px #f0d8798f;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 700px;
+}
+
+.input {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-color: rgb(102, 255, 0);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.section-one h1 {
+    align-self: flex-end;
+}
+
+.section-three {
+    justify-content: left;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+button {
+    background-color: hsl(48, 80%, 71%);
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 5px 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color:  hsl(48, 72%, 76%);
+}
+
+button:active {
+    background-color:  hsl(48, 72%, 76%);
+}
+
+label {
+    font-weight: 700;
+}
+
+.form-headline {
+    font-weight: 700;
+    font-size: 25px;
+    color:rgba(54, 44, 32, 0.815)
+}
+
+.section-one h1 {
+    font-style: italic;
+}
+
+input:invalid {
+    border-color: red;
+  }
+
+.thank-you {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.thank-you h1 {
+    font-family: 'Schoolbell', arial, serif; 
+    font-size: 250px;
+    color: rgb(102, 255, 0);
+    max-width: max-content;
+    padding: 0 40px;
+}
+
+.thank-you span {
+    font-size: 250px;
+    color: yellow;
 }

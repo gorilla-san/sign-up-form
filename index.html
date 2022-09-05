@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <title>Join Now</title>
+    <title>MAKE ME SWEAT</title>
 </head>
 <body>
     <div class="background left">
         <div class="logo">
-            <h1>YEEAAH BOOOY</h1>
+            <h1>YEEAAH BOOOY<span>.</span></h1>
         </div>
     </div>
     <div class="right">
@@ -20,35 +20,45 @@
             <h1>"Standing across the room
                 I saw you smile. 
                 Said I want to talk to you-oo-oo
-                For a little while. 
+                for a little while. 
                 But before I make my move,
-                My emotions start running wild. 
-                My tongue gets tied,
-                And that's no lie,
-                Looking in your eyes.
-                Looking in you big brown eyes!"
-            - Jacob Miller</h1>
+                my emotions start running wild;
+                my tongue gets tied,
+                and that's no lie,
+                looking in your eyes.
+                Looking in your big brown eyes!"</h1>
         </div>
         <div class="section-two form main section">
-            <h1 class="form-headline">I want to make you sweat</h1>
-            <form name="log-in" action="#" method="get">
-                <label for="first_name">FIRST NAME</label>
-                <input id="first_name" type="text">
-                <label for="last_name">LAST NAME</label>
-                <input id="last_name" type="text">
-                <label for="email_address">EMAIL</label>
-                <input id="email_address" type="email">
-                <label for="phone_number">PHONE NUMBER</label>
-                <input id="phone_number" type="tel">
-                <label for="password">PASSWORD</label>
-                <input id="password" type="password">
-                <label for="password_confirm">CONFIRM PASSWORD</label>
-                <input id="password_confirm" type="password">
-
+            <h1 class="form-headline">I want to make you sweat!</h1>
+            <form id="register" action="/thank-you.html">
+                <div class="first-name input">
+                    <label for="first_name">FIRST NAME</label>
+                    <input id="first_name" name="first_name" type="text" required>    
+                </div>
+                <div class="last-name input">
+                    <label for="last_name">LAST NAME</label>
+                    <input id="last_name" name="last_name" type="text" required>
+                </div>
+                <div class="email input">
+                    <label for="email_address">EMAIL</label>
+                    <input id="email_address" name="email_address" type="email" required>
+                </div>
+                <div class="phone input">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input id="phone_number" name="phone_number" type="tel" required>
+                </div>
+                <div class="password input">
+                    <label for="password">PASSWORD</label>
+                    <input id="password" name="password" type="password" required>
+                </div>
+                <div class="confirm input">
+                    <label for="password_confirm">CONFIRM PASSWORD</label>
+                    <input id="password_confirm" type="password" required>
+                </div>
             </form>
         </div>
         <div class="section-three section" >
-            <button type="submit">Make Me Sweat!</button>
+            <button type="submit" form="register">Make Me Sweat!</button>
         </div>
     </div>
 </body>
